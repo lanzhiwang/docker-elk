@@ -132,11 +132,11 @@ $ docker-compose exec -T elasticsearch bin/elasticsearch-setup-passwords auto --
 
 Passwords for all 6 built-in users will be randomly generated. Take note of them and replace the `elastic` username with
 `kibana` and `logstash_system` inside the Kibana and Logstash configuration files respectively. See the
-[Configuration](#configuration) section below.
+[Configuration](#configuration) section below.  将随机生成所有6个内置用户的密码。 记下它们并分别用Kibana和Logstash配置文件中的kibana和logstash_system替换弹性用户名。 请参阅下面的配置部分。
 
 > :information_source: Do not use the `logstash_system` user inside the Logstash *pipeline* file, it does not have
 > sufficient permissions to create indices. Follow the instructions at [Configuring Security in Logstash][ls-security]
-> to create a user with suitable roles.
+> to create a user with suitable roles.  不要在Logstash管道文件中使用logstash_system用户，它没有足够的权限来创建索引。 按照Logstash中的配置安全性中的说明创建具有适当角色的用户。
 
 Restart Kibana and Logstash to apply the passwords you just wrote to the configuration files.
 
@@ -147,7 +147,7 @@ $ docker-compose restart kibana logstash
 > :information_source: Learn more about the security of the Elastic stack at [Tutorial: Getting started with
 > security][sec-tutorial].
 
-### Injecting data
+### Injecting data  注入数据
 
 Give Kibana about a minute to initialize, then access the Kibana web UI by hitting
 [http://localhost:5601](http://localhost:5601) with a web browser and use the following default credentials to log in:
@@ -233,7 +233,7 @@ containers: [Configuring Logstash for Docker][ls-docker].
 
 ### How to disable paid features
 
-Switch the value of Elasticsearch's `xpack.license.self_generated.type` option from `trial` to `basic` (see [License
+Switch the value of Elasticsearch's `xpack.license.self_generated.type` option from `trial 试用` to `basic` (see [License
 settings][trial-license]).
 
 ### How to scale out the Elasticsearch cluster
