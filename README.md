@@ -349,7 +349,7 @@ See the following Wiki pages:
 
 ### Swarm mode
 
-Experimental support for Docker [Swarm mode][swarm-mode] is provided in the form of a `docker-stack.yml` file, which can
+Experimental试验 support for Docker [Swarm mode][swarm-mode] is provided in the form of a `docker-stack.yml` file, which can
 be deployed in an existing Swarm cluster using the following command:
 
 ```console
