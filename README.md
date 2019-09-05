@@ -70,9 +70,9 @@ By default, the stack exposes the following ports:
 * 9300: Elasticsearch TCP transport
 * 5601: Kibana
 
-> :information_source: Elasticsearch's [bootstrap checks][booststap-checks] were purposely disabled to facilitate the
+> :information_source: Elasticsearch's [bootstrap checks][booststap-checks] were purposely故意 disabled to facilitate促进 the
 > setup of the Elastic stack in development environments. For production setups, we recommend users to set up their host
-> according to the instructions from the Elasticsearch documentation: [Important System Configuration][es-sys-config].
+> according符合 to the instructions训词 from the Elasticsearch documentation: [Important System Configuration][es-sys-config].
 
 ### SELinux
 
