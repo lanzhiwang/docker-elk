@@ -338,7 +338,7 @@ $ docker-compose up
 ```
 
 > :information_source: Always pay attention to the [upgrade instructions][upgrade] for each individual component before
-performing a stack upgrade.
+performing a stack upgrade. 在执行堆栈升级之前，请始终注意每个组件的升级说明。
 
 ### Plugins and integrations
 
