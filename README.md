@@ -11,7 +11,7 @@ the visualization power of Kibana.
 
 > :information_source: The Docker images backing this stack include [Stack Features][stack-features] (formerly X-Pack)
 with [paid features][paid-features] enabled by default (see [How to disable paid
-features](#how-to-disable-paid-features) to disable them). The [trial license][trial-license] is valid for 30 days.
+features](#how-to-disable-paid-features) to disable them). The [trial license][trial-license] is valid for 30 days.  支持此堆栈的Docker映像包括默认启用付费功能的堆栈功能（以前称为X-Pack）（请参阅如何禁用付费功能以禁用它们）。 试用许可证有效期为30天。
 
 Based on the official Docker images from Elastic:
 
