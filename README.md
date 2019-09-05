@@ -124,7 +124,7 @@ The stack is pre-configured with the following **privileged** bootstrap user:
 * password: *changeme*
 
 Although all stack components work out-of-the-box with this user, we strongly recommend using the unprivileged [built-in
-users][builtin-users] instead for increased security. Passwords for these users must be initialized:
+users][builtin-users] instead for increased security. Passwords for these users must be initialized:  尽管所有堆栈组件都与该用户一起开箱即用，但我们强烈建议您使用非特权内置用户来提高安全性。 必须初始化这些用户的密码：
 
 ```console
 $ docker-compose exec -T elasticsearch bin/elasticsearch-setup-passwords auto --batch
